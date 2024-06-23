@@ -2,7 +2,7 @@
 builder = "nixpacks"
 
 [build.env]
-# Add any environment variables required during build here
+
 
 [run]
 start = "python manage.py runserver 0.0.0.0:$PORT"
