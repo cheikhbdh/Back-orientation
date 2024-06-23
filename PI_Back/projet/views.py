@@ -14,7 +14,7 @@ from django.utils import timezone
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
-from Orientation.settings import EMAIL_HOST_USER
+from PI_Back.settings import EMAIL_HOST_USER
 import random
 import pandas as pd
 import os

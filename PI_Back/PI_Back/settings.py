@@ -59,7 +59,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-ROOT_URLCONF = 'Orientation.urls'
+ROOT_URLCONF = 'PI_Back.urls'
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
@@ -83,7 +83,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Orientation.wsgi.application'
+WSGI_APPLICATION = 'PI_Back.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
