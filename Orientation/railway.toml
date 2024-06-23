@@ -1,8 +1,0 @@
-[build]
-builder = "nixpacks"
-
-[build.env]
-DJANGO_SETTINGS_MODULE = "PI_Back.settings"
-
-[run]
-start = "gunicorn PI_Back.wsgi:application --bind 0.0.0.0:$PORT"
